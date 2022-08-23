@@ -1,0 +1,27 @@
+def pronic(n):
+	for m in range(1, n):
+		if (m * (m+1) == n):
+			result.append(n)
+
+
+str=input().strip()
+l=len(str)
+temp=0
+result=[]
+for i in range(l):
+    a,b=0,1+i
+    for j in range(l-i):
+        n=int((str[a:b]))
+        pronic(n)
+        a,b=a+1,b+1
+        temp+=1
+
+sett=set(result)
+
+if(len(sett)==0):
+	print('-1')
+else:
+	print(sorted(sett))
+	
+https://web.facebook.com/rahul.bisht.775
+

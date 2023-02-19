@@ -1,2 +1,2 @@
 st=input('Enter a string: ')
-print('Reverse String==> ', st[::-3])
+print('Reverse String==> ', st[::-1])

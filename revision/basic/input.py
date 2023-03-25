@@ -20,6 +20,6 @@
 # x,y,z = [int(x) for x in input().split()]
 # print(z)
 
-# multiple line input 
+# multiple line integer input 
 n = [int(input()) for _ in range(int(input()))]
 print(n)

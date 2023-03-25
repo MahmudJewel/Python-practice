@@ -1,2 +1,4 @@
-n=[3(input()) for _ in range(int(input('enter a num: ')))]
-print('list', n)
+x,y,z = input().strip().split()
+print(x,y,z)
+
+

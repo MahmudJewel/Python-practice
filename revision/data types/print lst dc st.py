@@ -10,6 +10,7 @@
 # print(lst)
 
 
+# # duplicate dammy_data using for loop
 # dammy_data=[[1,2,3,4,5],[1,5,6,7], [2,7,8,9]]
 # lst = [[] for i in range(len(dammy_data)) ]
 # print(lst)
@@ -40,3 +41,4 @@
 
 st=None
 print(st+'/')
+

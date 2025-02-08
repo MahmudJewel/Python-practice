@@ -10,5 +10,5 @@ print(next(seq)) # 3
 print(next(seq)) # 5
 print(next(seq)) # 7
 print(next(seq)) # 9
-print(next(seq)) # 11
+print(next(seq)) # 1
 

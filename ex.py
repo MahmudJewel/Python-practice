@@ -4,6 +4,12 @@
 '***************************** Date: 15-06-2020 *****************************'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-st='m/l/xl     '
-lst = st.split('/')
-print(lst)
+# st='m/l/xl     '
+# lst = st.split('/')
+# print(lst)
+
+from datetime import datetime
+start_date = "2024-08-19"
+start_date_parsed = datetime.strptime(start_date, "%Y-%m-%d")
+print(f"{start_date_parsed}")
+

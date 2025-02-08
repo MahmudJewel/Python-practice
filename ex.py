@@ -135,7 +135,12 @@ if __name__ == "__main__":
             "day": "Monday",
             "is_open": True,
             "start_end_time": [
-                {"start_time": "09:00", "end_time": "17:00", "is_full_day": False}
+                # {"start_time": "09:00", "end_time": "17:00", "is_full_day": False}
+                {
+			"start_time": "00:00",
+			"end_time": "23:59",
+			"is_full_day": False
+		}
             ]
         }
     ]

@@ -1,5 +1,2 @@
-n=list(filter(int,input()))
+n = [int(input()) for _ in range(int(input()))]
 print(n)
-
-# n=list(map(int,input()))
-# print(n)

@@ -12,9 +12,9 @@
 # n = list(map(int, input().strip().split())) # n will be list of int 
 # print(n)
 
-# multiple variable in one line using tuple 
-(x,y,z) = input().split()
-print(x)
+# # multiple variable in one line using tuple 
+# (x,y,z) = input().split()
+# print(x)
 
 # # multiple variable in one line using list comprehension
 # x,y,z = [int(x) for x in input().split()]
@@ -32,7 +32,7 @@ print(x)
 #     lst.append(tmp)
 # print(lst)
 
-# # simple way
-# lst = [input() for i in range(int(input()))]
-# print(lst)
+# simple way
+lst = [input() for i in range(int(input()))]
+print(lst)
 

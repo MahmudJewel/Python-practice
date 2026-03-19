@@ -20,7 +20,7 @@
 # x,y,z = [int(x) for x in input().split()]
 # print(z)
 
-# # multiple line integer input 
+# # multiple line integer input using list comprehension
 # n = [int(input()) for _ in range(int(input()))]
 # print(n)
 

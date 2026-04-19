@@ -13,8 +13,8 @@ for i in range(l):
     for j in range(l-i):
         #print(str[a:b])
         protemp=str[a:b]
-        protemp=int(protemp)
-        print(type(protemp))
+        # protemp=int(protemp)
+        print(protemp)
         a,b=a+1,b+1
         temp+=1
 print("Total substring=",temp)

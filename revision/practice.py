@@ -1,11 +1,11 @@
-dammy_data=[[1,2,3,4,5],[1,5,6,7], [2,7,8,9]]
-lst = []
-print(lst)
+n = input("Enter an string: ").strip()
 
-for i in range(len(dammy_data)):
-    lst.append(dammy_data[i])
-print(lst)
+p1, p2 = 0, 0
 
+for i in range(len(n)):
+    p1 = i
+    p2 = p1+1
+    
 
 
 

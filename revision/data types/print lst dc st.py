@@ -1,6 +1,6 @@
 # date: 23-02-22
 
-# print indivisual  value on list, set, tuple  
+# # print indivisual  value on list, set, tuple  
 # a=[1,2,3,4,5,6,7]
 # print(a)  #[1,2,3,4,5,6,7]
 # print(*a) # 1 2 3 4 5 6 7
@@ -10,13 +10,22 @@
 # print(lst)
 
 
-# # duplicate dammy_data using for loop
+# #1 duplicate dammy_data using for loop
 # dammy_data=[[1,2,3,4,5],[1,5,6,7], [2,7,8,9]]
 # lst = [[] for i in range(len(dammy_data)) ]
 # print(lst)
 # for i in range(len(dammy_data)):
 #     for val in dammy_data[i]:
 #         lst[i].append(val)
+# print(lst)
+
+# #2 duplicate dammy_data using for loop
+# dammy_data=[[1,2,3,4,5],[1,5,6,7], [2,7,8,9]]
+# lst = []
+# print(lst)
+
+# for i in range(len(dammy_data)):
+#     lst.append(dammy_data[i])
 # print(lst)
 
 # productVariants_len=3
@@ -39,6 +48,6 @@
 # 				temp_productVariants_id.append(k)
 # print('temp_productVariants_id', temp_productVariants_id)
 
-st=None
-print(st+'/')
+# st=None
+# print(st+'/')
 
